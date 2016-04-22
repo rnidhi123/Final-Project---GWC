@@ -1,6 +1,13 @@
 h1 {
-  color: blue;
+  color: purple;
   text-align: left;
   font-family: "Comic Sans MS";
   font-size: 40px;
+}
+
+h3 {
+  color: purple;
+  text-align: right;
+  font-family: "Comic Sans MS";
+  font-size: 30px;
 }
