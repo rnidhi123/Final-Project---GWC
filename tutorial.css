@@ -1,16 +1,19 @@
 h1 {
-  
+  font-family: "Comic Sans MS";
+  color: purple;
+  text-align: left;
+  font-size: 40px;
 
 }
 div {
   background: white;
-  color: purple;
-  font-size: 40px;
+
+  
   border: black;
   border-width: 5px;
   border-style: double;
-  text-align: left;
-  font-family: "Comic Sans MS";
+ 
+
   
 }
 
