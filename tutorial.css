@@ -72,3 +72,8 @@ body {
         .tab.active {
             display:block;
         }
+
+  p {
+    font-family: Arial;
+  }
+}
