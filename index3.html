@@ -38,14 +38,21 @@
         <div id="tab4" class="tab">
             <p>Tab #4 content goes here!</p>
         </div>
-        
-        <div id="tab5" class="tab">
-            <p>Tab #5 content goes here!</p>
-        </div>
+
     </div>
 </div>
 <script>
-   
+   jQuery(document).ready(function() {
+    jQuery('.tabs .tab-links a').on('click', function(e)  {
+        var currentAttrValue = jQuery(this).attr('href');
+ 
+        jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+ 
+        jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+ 
+        e.preventDefault();
+    });
+});
 </script>
 </body>
 
