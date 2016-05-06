@@ -49,10 +49,12 @@
         jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
  
         jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+        jQuery('.tabs ' + currentAttrValue).slideDown(400).siblings().slideUp(400);
  
         e.preventDefault();
     });
 });
+
 </script>
 </body>
 
